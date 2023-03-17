@@ -1,7 +1,6 @@
 # Calculadora React.js
 
-Calculadora simples totalmente funcional feita inteiramente com React.js
-
+Calculadora simples totalmente funcional, feita inteiramente com React.js e inspirada pela calculadora do IOS.  
 Você pode [testar a calculadora](https://vinnyreis.github.io/react-calculator/) clicando no link.
 
 ## Script disponíveis
