@@ -2,7 +2,7 @@ export function processInputValue(value, input){
   if(input === '.' && value.toString().includes('.'))
     return value;
 
-  if(value !== 0 || input == '.')
+  if(value !== 0 || input === '.')
     return value + input;
   else
     return input;
@@ -18,6 +18,8 @@ export function calculate(firstValue, operator, secondValue){
       return parseFloat(firstValue) - parseFloat(secondValue);
     case '+':
       return parseFloat(firstValue) + parseFloat(secondValue);
+    default:
+      return secondValue;
   }
 }
 
