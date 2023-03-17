@@ -1,0 +1,26 @@
+.btn{
+  border: none;
+  background-color: #505050;
+  color: #fff;
+  aspect-ratio: 1/1;
+}
+
+.btn.btn-calculator{
+  width: 28%;
+  margin: 2.66%;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn.btn-calculator.btn-option{
+  background-color: #efefef;
+  color: #000;
+}
+
+.btn.btn-calculator.btn-operator{
+  width: 84%;
+  margin: 7.98%;
+  font-size: 1.5rem;
+  background-color: #f19a37;
+}

@@ -6,33 +6,6 @@
   border-radius: 1em;
 }
 
-button{
-  width: 21%;
-  margin: 2%;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.15rem;
-  background-color: #505050;
-  color: #fff;
-  cursor: pointer;
-  aspect-ratio: 1/1;
-}
-
-.orange_button{
-  background-color: #f19a37;
-}
-
-.gray_button{
-  background-color: #efefef;
-  color: #000;
-}
-
-.double-sized_button{
-  width: 46%;
-  border-radius: 20%/50%;
-  aspect-ratio: 2/0.85;
-}
-
 .box{
   padding: 15% 5%;
   text-align: right;
@@ -41,4 +14,17 @@ button{
 .result{
   color: #fff;
   font-size: 2.8rem;
+  overflow-wrap: break-word;
+}
+
+.keyboard{
+  display: flex;
+}
+
+.left-area{
+  width: 75%;
+}
+
+.operators{
+  width: 25%;
 }
