@@ -2,6 +2,9 @@
   "name": "calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://vinnyreis.github.io/react-calculator",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
